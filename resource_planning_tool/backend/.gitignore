@@ -1,0 +1,15 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore SQLite database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Ignore other common Python files/directories
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+instance/
